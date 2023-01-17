@@ -13,8 +13,25 @@
         android:theme="@style/Theme.TravelSurvey"
         tools:targetApi="31">
         <activity
+            android:name=".Page3"
+            android:exported="false"
+            android:parentActivityName=".Page2">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Page2"
+            android:exported="false"
+            android:parentActivityName=".Page1">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".Page1"
-            android:exported="false">
+            android:exported="false"
+            android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />

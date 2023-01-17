@@ -11,4 +11,11 @@
     <string name="age_range_3">31 - 50</string>
     <string name="age_range_4">51 - 65</string>
     <string name="age_range_5">Above 65</string>
+    <string name="purpose_of_travel">3. Choose the purpose(s) of your most recent travel:</string>
+    <string name="rating">4. How would you rate your most recent travel:</string>
+    <string name="checkbox_1">Business</string>
+    <string name="checkbox_2">Relaxation</string>
+    <string name="checkbox_3">Medical Reasons</string>
+    <string name="checkbox_4">Family Reunification</string>
+    <string name="checkbox_5">Others</string>
 </resources>

@@ -41,6 +41,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <RadioGroup
+        android:id="@+id/radioGroup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="200dp"
@@ -48,31 +49,49 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3">
+
         <RadioButton
             android:id="@+id/selection1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/age_range_1" />
+
         <RadioButton
             android:id="@+id/selection2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/age_range_2" />
+
         <RadioButton
             android:id="@+id/selection3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/age_range_3" />
+
         <RadioButton
             android:id="@+id/selection4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/age_range_4" />
+
         <RadioButton
             android:id="@+id/selection5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/age_range_5" />
     </RadioGroup>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="nextPage"
+        android:text="@string/button_next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.811"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup"
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

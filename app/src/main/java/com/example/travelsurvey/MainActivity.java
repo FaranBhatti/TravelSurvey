@@ -3,7 +3,7 @@ File name:                   MainActivity
 Description:                 Main page for the survey
 Created:                     Faran Bhatti
 Edited:                      2023-01-16 by Faran Bhatti (FB)
-Last Edited:                 2023-01-16 by Faran Bhatti (FB)
+Last Edited:                 2023-01-17 by Faran Bhatti (FB)
 */
 
 // Declaring where the source code of project is
