@@ -18,4 +18,11 @@
     <string name="checkbox_3">Medical Reasons</string>
     <string name="checkbox_4">Family Reunification</string>
     <string name="checkbox_5">Others</string>
+    <string name="summary">Summary</string>
+    <string name="selected_country">Country:</string>
+    <string name="selected_age_range">Age Range:</string>
+    <string name="selected_travel_purposes">Most Recent Travel Purposes:</string>
+    <string name="selected_travel_rating">Most Recent Travel Rating:</string>
+    <string name="button_submit">SUBMIT</string>
+
 </resources>
